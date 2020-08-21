@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/style.min.css">
     <title>Big Shop</title>
 </head>
 <body>
     
     <header class="header">
-        <img src="./img/header/girl.png" alt="girl" class="girl-img">
+        <img src="./img/header/girl.png" alt="girl" class="girl-img" data-aos="fade-right">
         <div class="wrap">
-            <div class="header-bar">
+            <div class="header-bar" data-aos="fade-down">
                 <a href="#" class="title">Big Shop</a>
 
                 <div class="search-box">
@@ -29,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="header-info">
+            <div class="header-info" data-aos="fade-left">
                 <h1 class="info-title">Summer <span>Collection</span></h1>
                 <h2 class="info-sale"><span>25%</span> OFF</h2>
 
@@ -42,10 +43,10 @@
 
     <section class="trendy">
         <div class="wrap">
-            <h1 class="trendy__title">Trendy Arrivals</h1>
+            <h1 class="trendy__title" data-aos="fade-down">Trendy Arrivals</h1>
 
             <div class="trendy-content">
-                <div class="trendy__item hover-item">
+                <div class="trendy__item hover-item" data-aos="fade-right" data-aos-delay="300">
                     <div class="item-info">
                         <div>
                             <img src="./img/trendy/like.png" alt="like">
@@ -63,27 +64,27 @@
 
                     <button class="add-btn">Add to Cart</button>
                 </div>
-                <div class="trendy__item">
+                <div class="trendy__item" data-aos="fade-right" data-aos-delay="300">
                     <img src="./img/trendy/bag-02.png" alt="bag-02">
                     <p> Fashion Red Leather Bags </p>
                     <p class="item-price">$20.16</p>
                 </div>
-                <div class="trendy__item">
+                <div class="trendy__item" data-aos="fade-right" data-aos-delay="300">
                     <img src="./img/trendy/bag-03.png" alt="bag-03">
                     <p> Fashion Genuine Leather Bags </p>
                     <p class="item-price">$30.14</p>
                 </div>
-                <div class="trendy__item">
+                <div class="trendy__item" data-aos="fade-left" data-aos-delay="700">
                     <img src="./img/trendy/bag-04.png" alt="bag-04">
                     <p>Simply Leather Bags</p>
                     <p class="item-price">$15.20</p>
                 </div>
-                <div class="trendy__item">
+                <div class="trendy__item" data-aos="fade-left" data-aos-delay="700">
                     <img src="./img/trendy/bag-05.png" alt="bag-05">
                     <p>New Fashion Leather Bags</p>
                     <p class="item-price">$25.20</p>
                 </div>
-                <div class="trendy__item">
+                <div class="trendy__item" data-aos="fade-left" data-aos-delay="700">
                     <img src="./img/trendy/bag-06.png" alt="bag-06">
                     <p>Single Hand Models Bags</p>
                     <p class="item-price">$17.6</p>
@@ -94,7 +95,7 @@
 
     <section class="brands">
         <div class="wrap">
-            <div class="brands-left">
+            <div class="brands-left" data-aos="fade-right" data-aos-delay="500">
                 <h1>Our Brands</h1>
                 <h2>
                     Small Shoes 2017 new Arrivals  mini 
@@ -110,10 +111,29 @@
                     Pellentesque sit amet nisl vitae orci vehicula faucibus. Fusce et lat, feugiat est. 
                 </p>
             </div>
-            <div class="brands-right">
+            <div class="brands-right" data-aos="fade-left" data-aos-delay="900">
                 <img src="./img/brands/phone.png" alt="phone">
             </div>
         </div>
     </section>
+
+    <section class="showcase">
+        <div class="wrap">
+            <h1 data-aos="fade-down" data-aos-delay="300">Our Showcase</h1>
+
+            <div class="showcase__bar" data-aos="fade-down" data-aos-delay="600">
+                <a href="#" class="showcase__item" data-aos="fade-left" data-aos-delay="700">Fashion</a>
+                <a href="#" class="showcase__item" data-aos="fade-left" data-aos-delay="800">Furnitures</a>
+                <a href="#" class="showcase__item" data-aos="fade-left" data-aos-delay="900">Watches</a>
+                <a href="#" class="showcase__item" data-aos="fade-left" data-aos-delay="1000">Mobile</a>
+                <a href="#" class="showcase__item" data-aos="fade-left" data-aos-delay="1100">Cloth</a>
+                <a href="#" class="showcase__item" data-aos="fade-left" data-aos-delay="1200">Toys</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
