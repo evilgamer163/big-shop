@@ -1,0 +1,120 @@
+.header {
+    background-image: url('../img/header/purple.png');
+    background-size: cover;
+
+    .wrap {
+        position: relative;
+    }
+
+    .girl-img {
+        position: absolute;
+        top: 58px;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.header-bar {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    font-family: $myraidPro;
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+
+    button {
+        background: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: $openSans;
+        font-weight: 600;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+}
+
+.line {
+    width: 1px;
+    height: 37px;
+    margin-left: 51px;
+    margin-right: 39px;
+    background-color: #D7D7D7;
+}
+
+.search {
+    img {
+        margin-right: 16px;
+    }
+}
+
+.collection {
+    img {
+        margin-left: 20px;
+    }
+}
+
+.header-info {
+    max-width: 510px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 202px;
+    line-height: 1.043;
+}
+
+.info-title {
+    font-size: 115px;
+    font-family: $roboto;
+
+    span {
+        display: block;
+        color: #fff;
+    }
+}
+
+.info-sale {
+    font-family: $roboto;
+    font-size: 50px;
+    margin-top: 47px;
+
+    span {
+        color: #FBFC29;
+    }
+}
+
+.details-btn {
+    background: #fff;
+    border: none;
+    width: 202px;
+    height: 60px;
+    box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+    font-size: 18px;
+    font-family: $openSans;
+    font-weight: 700;
+    border-radius: 50px;
+    margin-top: 98px;
+    margin-bottom: 260px;
+
+    span {
+        color: #5B29DB;
+        margin-left: 16px;
+    }
+}

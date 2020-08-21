@@ -1,0 +1,48 @@
+$openSans: 'Open Sans', sans-serif;
+$myraidPro: 'Myriad Pro Semibold', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    src: url('../font/MyriadPro-Semibold.eot');
+    src: url('../font/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../font/MyriadPro-Semibold.woff') format('woff'),
+    url('../font/MyriadPro-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FEFEFF;
+}
+
+.wrap {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@import './header.scss';
+
+.trendy {
+    text-align-last: center;
+
+    .wrap {
+        position: relative;
+        background-color: #fff;
+        top: -100px;
+        padding-top: 98px;
+        box-shadow: 0px 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
+    }
+}
+
+.trendy__title {
+    font-size: 50px;
+    font-family: $openSans;
+    font-weight: 700;
+}
