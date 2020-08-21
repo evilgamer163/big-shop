@@ -1,0 +1,47 @@
+.brands {
+    background-image: url('../img/brands/circle.png');
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+    padding-top: 140px;
+    position: relative;
+    top: -100px;
+
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.brands-left {
+    max-width: 515px;
+    font-family: $openSans;
+
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 25px;
+        margin: 38px 0 31px 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #7969F6;
+    }
+
+    p {
+        color: #646464;
+        font-size: 16px;
+    }
+}
+
+.brands-right {
+
+    img {
+        margin-right: 100px;
+    }
+}
