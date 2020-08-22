@@ -65,9 +65,14 @@ body {
     padding: 0 120px;
     box-sizing: border-box;
 
-    a {
+    .showcase__item {
         text-decoration: none;
         font-weight: 600;
         color: #000;
+    }
+
+    .active-item {
+        color: #A884FA;
+        text-shadow: -2px 5px 2px #EBE5FC;
     }
 }
