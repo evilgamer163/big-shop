@@ -31,19 +31,24 @@
     padding-top: 23px;
     padding-bottom: 75px;
     position: relative;
+}
 
-    p {
-        color: #646464;
-        font-family: $openSans;
-        font-size: 18px;
-        margin-top: 28px;
-    }
+.trendy__item:hover {
+    cursor: pointer;
+}
 
-    .item-price {
-        color: #000;
-        font-size: 25px;
-        font-weight: 600;
-    }
+.item-desc {
+    color: #646464;
+    font-family: $openSans;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+.item-price {
+    font-family: $openSans;
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .trendy__item:nth-child(4),
@@ -52,22 +57,19 @@
     margin-top: 123px;
 }
 
-.hover-item {
-    box-shadow: 0px 5px 47.5px 2.5px rgba(221, 223, 224, 0.75);
-}
-
 .item-info {
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
     padding: 0 21px;
     box-sizing: border-box;
+    transition: all .5s ease;
 
     div {
         display: flex;
-    align-items: center;
-    color: #646464;
+        align-items: center;
+        color: #646464;
 
         img {
             margin-right: 6px;
@@ -76,6 +78,7 @@
 }
 
 .add-btn {
+    display: none;
     background: linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
     box-shadow: 0px 5px 23.75px 1.25px rgba(240, 239, 254, 0.75);
     border: none;

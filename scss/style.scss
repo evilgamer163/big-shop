@@ -21,6 +21,14 @@ body {
     background-color: #FEFEFF;
 }
 
+button {
+    outline: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .wrap {
     max-width: 1170px;
     width: 90%;
@@ -31,48 +39,6 @@ body {
 @import './header.scss';
 @import './trendy.scss';
 @import './brands.scss';
-
-
-.showcase {
-    text-align-last: center;
-    font-family: $openSans;
-
-    .wrap {
-        max-width: 1380px;
-        width: 90%;
-        position: relative;
-        background-color: #fff;
-        padding: 98px 106px 114px 106px;
-        box-shadow: 0px 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
-
-        h1 {
-            font-weight: 700;
-            font-size: 50px;
-        }
-    }
-}
-
-.showcase__bar {
-    min-width: 1110px;
-    width: 90%;
-    height: 66px;
-    margin: 104px auto 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 50px;
-    box-shadow: 0px 5px 47.5px 2.5px rgba(239, 239, 240, 0.75);
-    padding: 0 120px;
-    box-sizing: border-box;
-
-    .showcase__item {
-        text-decoration: none;
-        font-weight: 600;
-        color: #000;
-    }
-
-    .active-item {
-        color: #A884FA;
-        text-shadow: -2px 5px 2px #EBE5FC;
-    }
-}
+@import './showcase.scss';
+@import './subscribe.scss';
+@import './footer.scss';
