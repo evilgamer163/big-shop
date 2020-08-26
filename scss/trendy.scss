@@ -33,6 +33,12 @@
     position: relative;
 }
 
+.trendy__item:nth-child(4),
+.trendy__item:nth-child(5),
+.trendy__item:nth-child(6) {
+    margin-top: 123px;
+}
+
 .trendy__item:hover {
     cursor: pointer;
 }
@@ -49,12 +55,6 @@
     color: #000;
     font-size: 25px;
     font-weight: 600;
-}
-
-.trendy__item:nth-child(4),
-.trendy__item:nth-child(5),
-.trendy__item:nth-child(6) {
-    margin-top: 123px;
 }
 
 .item-info {
